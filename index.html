@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+        <meta charset="UTF-8"/>
+        <title>Café 3 Colinas</title>
+        <link rel="stylesheet" href="lib/css/estilo.css"/><!--Link para outro arquivo-->
+        <link rel="stylesheet" href="lib/css/fotos.css"/>
+        <link rel="stylesheet" href="lib/css/sobre.css"/>
+        <link rel="stylesheet" href="lib/css/contato.css"/>
+        <script src="lib/js/jquery-3.2.1.min.js"></script>
+        <script src="lib/js/funcoes.js"></script>
+    </head>
+    <body>
+        <div id="interface">
+            <header id="cabecalho">
+                <!--MENU-->
+                <nav id="menu">
+                    <ul type="disc">
+                        <li onclick="scrollTo('home')"><a href="javascript:void(0)">Home</a></li><!--tag "a" é link para outra página-->
+                        <li onclick="scrollTo('galeria')"><a href="javascript:void(0)">Galeria</a></li>
+                        <li onclick="scrollTo('sobre')"><a href="javascript:void(0)">Sobre</a></li>
+                        <li onclick="scrollTo('contato')"><a href="javascript:void(0)">Contato</a></li>
+                    </ul>
+                </nav>
+                <div id="home">
+                    <hgroup>
+                        <h1 class="title">CAFÉ 3 COLINAS</h1>
+                        <h2 class="title">Muito além de uma bebida</h2>   
+                    </hgroup>
+                </div>
+                <div id="galeria">
+                    <p>Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do café 3 colinas, como a qualidade e sabor que estão impressionando os consumidores da região. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.</p>
+					<ul = id="album-fotos">
+						<li id="foto01"> <span>Colheita do café</span></li>
+						<li id="foto02"> <span>Torra do café</span> </li>
+						<li id="foto03"> <span>Aroma do café</span> </li>
+						<li id="foto04"> <span>Transporte do café</span> </li>
+						<li id="foto05"> <span>Comercialização do café</span> </li>
+						<li id="foto06"> <span>Café Pronto</span> </li>
+					</ul>
+                </div>
+                <div id="sobre">
+                    <h1 class="title2">Quem Somos ?</h1>
+                    <div class="divisoria">
+                        <p>Localizada em Franca/SP, parte integrante da Alta Mogiana, próximo ao Sul de Minas Gerais, reconhecida mundialmente como região produtora de cafés finos.</p>
+                        <img class="img-dir"src="lib/img/graos.jpg"/>
+                        <p>Fundada em 1987, a sede da empresa foi o primeiro empreendimento do Distrito Industrial de Franca vislumbrando uma oportunidade de ofertar ao consumidor francano um produto diferenciado e aproveitando a excelente qualidade dos grãos de café produzidos na região.</p>
+                        <img class="img-esq"src="lib/img/cafe.jpg"/>
+                        <p>O nome café 3 colinas foi a identificação perfeita com a cafeicultura e imediatamente percebida pelo consumidor (as três colinas são características físicas da cidade de Franca/SP).</p><br/>
+                        <p>A boa aceitação, a facilidade de atendimento e a comunicação adequada foram os fatores que levaram ao crescimento de mercado e da marca.</p>
+                    </div>
+                    <div style="display: flex; clear: left;">
+                        <aside class="divisoria-dir">
+                            <h2>PADRONIZAÇÃO DE COR E SABOR</h2> 
+                            <p>Para garantir a pureza do café, a padronização de cor e sabor dos grãos é fundamental para a excelência do produto final. A combinação e seleção dos tipos de grãos é realizada por especialistas que identificam qualquer desvio de qualidade.</p>
+                            <h2>SELO DE PUREZA</h2>
+                            <p>O Café 3 Colinas integra a lista dos 100 cafés mais puros do Brasil e é associado à ABIC (Associação Brasileira das Indústrias de Café). Com laudos atualizados e certificação, o selo ABIC atesta a pureza do café torrado e moído, o que garante para o consumidor a certeza de estar consumindo um produto 100% puro.</p>
+                            <h2>PRODUTOS</h2>
+                            <p>A linha de produtos tem como objetivo oferecer sempre o melhor ao consumidor. A empresa comercializa o Café Torrado e Moído (Tradicional), Cappuccino Tradicional e Cappuccino Ligth, Café Expresso em Grãos Torrados e Filtro de Papel para café. Além do serviço de locação de máquinas para café expresso.</p>
+                        </aside>
+                        <aside class="divisoria-esq">
+                            <h2>CONTROLE DE TORRA E MOAGEM</h2> 
+                            <p>Para garantir a pureza do café, a padronização de cor e sabor dos grãos é fundamental para a excelência do produto final. A combinação e seleção dos tipos de grãos é realizada por especialistas que identificam qualquer desvio de qualidade.</p>
+                            <h2>FAZENDAS</h2>
+                            <p>Além de propriedades prórias na região da Alta Mogina, o Café 3 Colinas mantêm um estreito relacionamento com produtores de café, garantindo sempre uma matéria-prima adequada para a indústrialização.</p>
+                            <h2>PRÊMIOS</h2>
+                            <p>O desenvolvimento do Café 3 Colinas é marcado pela estreita relação com representantes e consumidores e por isso, guarda consigo diversos prêmios. Há dez anos consecutivos, é reconhecido como a marca de café mais lembrada da cidade de Franca com o prêmio TOP FRANCA, de 2005 a 2015.Seu fundador, Alberto Carraro Fernandes, recebeu o Prêmio Mérito Empresarial de 2006, realizado pela ACIF – Associação do Comércio e Indústria de Franca, na categoria Indústria</p>
+                        </aside>
+                    </div>
+                </div>
+                <div id="contato">
+                    <h1 class="title2">Contato</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.9600948760294!2d-47.43084508562283!3d-20.54881358626024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a7dd9c632b35%3A0xd8d73b11715eaeb8!2sSMN+INFORM%C3%81TICA!5e0!3m2!1spt-BR!2sbr!4v1498738011614" height="450" frameborder="0" allowfullscreen></iframe>
+                    <ul type="none">
+                        <li>Contato</li>
+                        <li>Tel: (16) 3720-0411</li>
+                        <li>Endereço: Rua Ézio Pucci, 2601</li>
+                        <li>Distrito Indústrial - Franca/SP</li>
+                        <li>CEP: 14406-078</li>
+                        <li>Email: cafe3colinas@cafe3colinas.com.br</li>
+                    </ul>
+                </div>
+                <footer class="rodape">
+                    <p>Copyright &copy; 2017 - by Daniel Szabó<br/>
+                    <a href="http://facebook.com.br" target="_blank">Facebook</a> |
+                    <a href="http://twitter.com.br" target="_blank">Twitter</a></p>
+                </footer>
+            </header>   
+        </div>
+    </body>
+</html>

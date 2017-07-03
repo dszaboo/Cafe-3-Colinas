@@ -1,0 +1,24 @@
+div#contato{
+    /*height: 900px;*/
+    clear: left;
+}
+div#contato ul{
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+    margin: 20px 20px 0 20px;
+}
+div#contato li{
+    font-size: 17pt;
+    padding: 15px;
+    background-color: #ddd;
+    padding-bottom: 30px;
+}
+div#contato iframe{
+    width:50%;
+    padding:0;
+    border: 3px #606060 solid;
+    box-sizing: border-box;
+    margin: 20px 20px 0 20px;
+}

@@ -1,0 +1,75 @@
+/*Configuração do sobre*/
+div#sobre p{
+    font-size: 15pt;
+	text-align: justify;
+	text-indent: 50px;
+    padding: 10px 10px 0;
+    color: #000;
+    margin:0;
+}
+div#sobre h1{
+    font-family: 'Abril Fatface', cursive;
+	font-size:40px;
+    margin: 0;
+    padding: 0 15px;
+    color: #000;
+    border-color: #000;
+    text-align: left;
+    background-color: #d6d6d6;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+div#sobre h2{
+    font-family: 'Abril Fatface', cursive;
+	font-size:17px;
+    margin-top: 8pt;
+    margin-bottom: 0;
+    padding: 5px 0px;
+    border-color: #000;
+    text-align: center;
+    background-color: #d6d6d6;
+}
+img.img-dir{
+    display: block;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height:200px;
+    border:  8px solid #fff;
+    box-shadow: 1px 1px 4px black;
+    opacity: 0.85;
+}
+img.img-dir:hover{
+    opacity: 1;
+}
+img.img-esq{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height:200px;
+    border:  8px solid #fff;
+    box-shadow: 1px 1px 4px black;
+    opacity: 0.85;
+}
+img.img-esq:hover{
+    opacity: 1;
+}
+
+aside.divisoria-esq{
+    display: inline-block;
+    width: 50%; 
+    border-left: 2px #606060 solid;
+    border-bottom: 2px #606060 solid;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+aside.divisoria-dir{
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 2px #606060 solid;
+    width: 50%;   
+    padding: 0 10px 20px;
+}
+
